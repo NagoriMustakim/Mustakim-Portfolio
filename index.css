@@ -287,37 +287,14 @@ body {
     height: 35px;
 }
 
-@media (min-width:250px) and (max-width:400px) {
-    .head-container img {
-        /* display: none; */
-        opacity: 0;
-    }
+    
 
-    .head-container .introduction {
-        margin-top: -380px;
-        left: 12%;
-        position: absolute;
-        /* border: 2px solid red; */
-        width: 40rem;
-    }
 
-    .up-button {
-        position: fixed;
-        left: 88%;
-        top: 51%;
-        border-radius: 15px;
-    }
-
-    .up-button img {
-        width: 35px;
-        height: 30px;
-    }
-
-    .up-button a :hover {
-        width: 40px;
-        height: 35px;
-    }
+.up-button a :hover {
+    width: 40px;
+    height: 35px;
 }
+
 
 .header {
     width: fit-content;
@@ -677,6 +654,10 @@ body {
     font-size: 40px;
 
 }
+#servvices{
+    background-color: rgb(245, 241, 246);
+    border-radius: 3rem;
+}
 
 :root {
     --red: hsl(0, 78%, 62%);
@@ -828,14 +809,7 @@ h2 {
     font-family: cursive;
 }
 
-.contact-form {
-    /* border: 2px solid red; */
-    /* width: 50%; */
-    /* width: max-content;
-    margin: auto; */
-    /* margin: 2rem; */
-    /* margin-bottom: 2rem */
-}
+
 
 form {
     display: flex;
@@ -861,7 +835,8 @@ textarea {
 
 
 }
-.contact-img img{
+
+.contact-img img {
     position: relative;
     width: 500px;
     height: 400px;
@@ -879,6 +854,7 @@ textarea {
     background-color: #58a8f7;
 
 }
+
 .icon-info i {
     position: absolute;
     left: 45%;
@@ -918,35 +894,153 @@ textarea {
 #linkedin {
     margin-right: 3rem;
 }
-footer{
+
+footer {
     /* border: 2px solid black; */
     width: max-content;
     position: relative;
     margin: auto;
     margin-top: 7rem;
 }
-footer h3{
+
+footer h3 {
     color: #ff0ad2;
 }
-footer h3 span{
+
+footer h3 span {
     color: black;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: #ff0ad2;
 
 }
-/* make img opacity low and .introduction heigh */
-@media (min-width:401px) and (max-width:900px) {
+
+@media (min-width:300px) and (max-width:430px) {
     .head-container img {
         /* display: none; */
-        opacity: 0.1;
+        opacity: 0;
     }
 
     .head-container .introduction {
         margin-top: -380px;
-        /* opacity: 1; */
-        left: 20%;
+        left: 12%;
         position: absolute;
+        /* border: 2px solid red; */
+        width: 40rem;
+    }
+
+    .up-button {
+        position: fixed;
+        left: 88%;
+        top: 51%;
+        border-radius: 15px;
+    }
+
+    .up-button img {
+        width: 35px;
+        height: 30px;
+    }
+    .head-container img {
+        opacity: 0.1;
+    }
+
+    .head-container h2 {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .head-container p {
+
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .head-container button {
+
+        position: relative;
+        right: 30%;
+    }
+
+    .head-container i {
+
+        position: relative;
+        right: 30%;
+        margin-top: -1em;
+    }
+    .up-button {
+        display: none;
+    }
+
+    .about-text {
+        width: 22rem;
+        margin-top: -2rem;
+    }
+
+    .about-text h1 {
+        font-size: 2rem;
+
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .patterns {
+
+        width: 23rem;
+        font-size: 20px;
+    }
+
+    .education-img {
+        opacity: 0;
+    }
+
+    .secondary-education {
+        width: 22rem;
+        font-size: 12px;
+        height: 6rem;
+    }
+
+    .Higher-secondary-education {
+        width: 22rem;
+        font-size: 12px;
+        height: 6rem;
+    }
+
+    .degree {
+        width: 22rem;
+        font-size: 12px;
+        height: 6rem;
+    }
+
+    .heading-services h1 {
+        font-size: 3rem;
+    }
+
+    .contact-img {
+        display: none;
+    }
+
+    .contact-form {
+        width: 20rem;
+    }
+
+    .icon-info {
+        margin-top: 25rem;
+        position: relative;
+        right: 25%;
+    }
+
+    .icon-info i {
+        width: 22rem;
+    }
+
+    .icon-class1 a{
+        position: relative;
+        right: 25%;
+
+       
     }
 }

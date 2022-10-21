@@ -324,6 +324,9 @@ body {
 .about-text p {
     padding-left: 15px;
     margin-top: 25px;
+    font-weight: bold;
+    font-size: 1.1rem;
+
 }
 
 .about-img {
@@ -654,7 +657,7 @@ body {
     font-size: 40px;
 
 }
-#servvices{
+#services{
     background-color: rgb(245, 241, 246);
     border-radius: 3rem;
 }
@@ -993,6 +996,7 @@ footer a {
 
         width: 23rem;
         font-size: 20px;
+        font-family: 'Tangerine', serif;
     }
 
     .education-img {
